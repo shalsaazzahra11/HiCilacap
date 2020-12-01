@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ui.ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="KABUPATEN CILACAP"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Salah satu kabupaten di Provinsi Jawa Tengah. Ibu kota nya adalah Kota Cilacap. Kabupaten ini berbatasan dengan Kabupaten Brebes dan Kabupaten Banyumas di utara, Kabupaten Banyumas dan Kabupaten Kebumen di timur, Samudra Hindia di selatan, serta Kabupaten Ciamis, Kota Banjar, dan Kabupaten Pangandaran (Jawa Barat) di sebelah Barat." />
+
+            <Button
+                android:id="@+id/btn_lokasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cornflower_blue"
+                android:text="lokasi"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="VISI"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="RPJMD Tahun 2017-2022 merupakan penjabaran dari tahapan pembangunan periode ketiga RPJPD Kabupaten Cilacap Tahun 2005-2025.\nTema pembangunan RPJPD periode ketiga dan keempat menjadi salah satu rujukan kepala daerah dalam menyusun Visi dan Misi Kabupaten Cilacap Tahun 2017 – 2022. Visi pembangunan Kabupaten Cilacap berdasarkan analisis visi Bupati dan Wakil Bupati terpilih adalah sebagai berikut :\nCILACAP SEMAKIN SEJAHTERA SECARA MERATA." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="MISI"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Untuk mewujudkan visi diatas maka dirumuskan 5 (lima) misi pembangunan daerah sebagai berikut:" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+                <TableRow>
+                    <TextView android:text="1. " />
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:maxEms="4"
+                        android:text="Misi Pertama\nMeningkatkan layanan pendidikan dan kesehatan rohani dan jasmani, serta kesejahteraan sosial dan keluarga." />
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="2. " />
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:maxEms="4"
+                        android:text="Misi Kedua\nMeningkatkan kualitas penyelenggaraan pemerintahan yang profesional bersifat entrepreneur dan dinamis dengan mengedepankan prinsip Good Governance dan Clean Government." />
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="3. " />
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:maxEms="4"
+                        android:text="Misi Ketiga\nMewujudkan demokratisasi, stabilitas keamanan, ketertiban umum, ketentraman dan perlindungan masyarakat." />
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="4. " />
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:maxEms="4"
+                        android:text="Misi Keempat\nMengembangkan perekonomian yang bertumpu pada potensi lokal dan regional." />
+                </TableRow>
+
+                <TableRow>
+                    <TextView android:text="5. " />
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:maxEms="4"
+                        android:text="Misi Kelima\nMengembangkan dan membangun infrastruktur wilayah dengan memperhatikan aspek lingkungan hidup dalam pemanfaatan sumber daya alam secara berkelanjutan." />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="PROFIL PIMPINAN"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="BUPATI"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bupati" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="H. Tatto Suwarto Pamuji" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:text="Data Pribadi\nKantor : Jl. Jend. Sudirman No.32 Cilacap\nE-mail : bupati@cilacapkab.go.id\nTTL : Cilacap, 8 April 1957\nAlamat : Jl. Diponegoro 104 Majenang\nAgama : Islam" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="WAKIL BUPATI"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/wakil_bupati" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Syamsul Auliya Rachman, S.STP, MSi." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:text="Data Pribadi\nKantor : Jl. Jend. Sudirman No.32 Cilacap \n E-mail  : wakilbupati@cilacapkab.go.id\nAgama : Islam" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="SEJARAH KABUPATEN CILACAP"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="1. Zaman Kerajaan Jawa\nPenelusuran sejarah zaman kerajaan Jawa  diawali sejak zaman Kerajaan Mataram Hindu  sampai dengan  Kerajaan Surakarta. Pada akhir zaman  Kerajaan Majapahit (1294-1478) daerah cikal-bakal  Kabupaten Cilacap terbagi dalam wilayah-wilayah Kerajaan   Majapahit, Adipati Pasir Luhur dan Kerajaan Pakuan   Pajajaran, yang wilayahnya membentang dari timur ke  arah barat :
+                            \n– Wilayah Ki Gede Ayah dan wilayah Ki Ageng Donan  dibawah kekuasaan Kerajaan Majapahit.
+                            \n– Wilayah Kerajaan Nusakambangan dan wilayah  Adipati Pasir Luhur.
+                            \n– Wilayah Kerajaan Pakuan Pajajaran.
+                            \nMenurut Husein Djayadiningrat, Kerajaan Hindu  Pakuan Pajajaran setelah diserang oleh Kerajaan  Islam Banten dan Cirebon jatuh pada tahun 1579,  sehingga bagian timur Kerajaan Pakuan Pajajaran  diserahkan kepada Kerajaan Cirebon. Oleh karena  itu seluruh wilayah cikal-bakal Kabupaten Cilacap  di sebelah timur dibawah kekuasaan Kerajaan  Islam Pajang dan sebelah barat diserahkan kepada  Kerajaan Cirebon. Kerajaan Pajang diganti dengan Kerajaan Mataram  Islam yang didirikan oleh Panembahan Senopatipada  tahun 1587-1755, maka daerah cikal bakal Kabupaten  Cilacap yang semula di bawah kekuasaan Kerajaan  Islam Pajang diserahkan kepada Kerajaan Mataram. Pada tahun 1595 Kerajaan Mataram mengadakan  ekspansi ke Kabupaten Galuh yang berada di wilayah  Kerajaan Cirebon. Menurut catatan harian Kompeni Belanda di Benteng Batavia, tanggal 21 Pebruari 1682 diterima surat yang berisi terjemahan perjalanan darat dari Citarum, sebelah utara Karawang ke Bagelen. Nama-nama yang dilalui dalam daerah cikal-bakal Kabupaten Cilacap adalah Dayeuhluhur dan Limbangan.
+                            \n\n2. Zaman Penjajahan Belanda
+                            \nPembentukan Onder Afdeling Cilacap (dua bulan setelah Residen Launy bertugas) dengan besluit Gubernur Jenderal D.De Erens tanggal 17 Juli 1839 Nomor 1, memutuskan : “Demi kepentingan pelaksanaan pemerintahan daerah yang lebih rapi di kawasan selatan Banyumas dan peningkatan pembangunan pelabuhan Cilacap, maka sambil menunggu usul organisasi distrik-distrik bagian selatan yang akan menjadi bagiannya, satu dari tiga Asisten Resident di Karesidenan ini akan berkedudukan di Cilacap”. Karena daerah Banyumas Selatan dianggap terlalu luas untuk dipertahankan oleh Bupati Purwokerto dan Bupati Banyumas maka dengan Besluit tanggal 27 Juni 1841 Nomor 10 ditetapkan :”Patenschap” Dayeuhluhur dipisahkan dari Kabupaten Banyumas dan dijadikan satu afdeling tersendiri yaitu afdeling Cilacap dengan ibu kota Cilacap, yang menjadi tempat kedudukan Kepala Bestuur Eropa Asisten Residen dan Kepala Bestuur Pribumi Rangga atau Onder Regent. Dengan demikian Pemerintah Pribumi dinamakan Onder Regentschap setaraf dengan Patih Kepala Daerah Dayeuhluhur. Bagaimanapun pembentukan afdeling memenuhi keinginan Bupati Purwokerto dan Banyumas yang sudah lama ingin mengurangi daerah kekuasaan masing-masing dengan Patenschap Dayeuhluhur dan Distrik Adiraja. Adapun batas Distrik Adiraja yang bersama pattenschap Dayeuhluhur membentuk Onder Regentschap Cilacap menurut rencana Residen Banyumas De Sturier tertanggal 31 Maret 1831 adalah sebagai berikut: Dari muara Sungai Serayu ke hulu menuju titik tengah ketinggian Gunung Prenteng. Dari sana menuju puncak, turun ke arah tenggara pegunungan Kendeng, menuju puncak Gunung Gumelem (Igir Melayat). dari sana ke arah selatan mengikuti batas wilayah Karesidenan Banyumas menuju ke laut. Dari sana ke arah barat sepanjang pantai menuju muara Sungai Serayu. Dari batas-batas Distrik Adiraja dapat diketahui bahwa Distrik Adiraja sebagai cikal-bakal eks Kawedanan Kroya lebih besar dari pada eks Kawedanan Kroya, karena waktu itu belum terdapat Distrik Kalireja, yang dibentuk dari sub-bagian Distrik Adiraja dan sebagai Distrik Banyumas. Sehingga luas kawasan Onder Regentschap Cilacap masih lebih besar dari luas Kabupaten Cilacap sekarang. Pada masa Residen Banyumas ke-9 Van de Moore mengajukan usul Pemerintah Hindia Belanda pada tanggal 3 Oktober 1855 yang ditandatangani Gubernur Jenderal Duijmaer Van Tuist, kepada Menteri Kolonial Kerajaan Belanda dalam Kabinet Sreserpt pada tanggal 29 Desember 1855 Nomor 86, dan surat rahasia Menteri Kolonial tanggal 5 Januari 1856 Nomor 7/A disampaikan kepada Gubernur Jenderal Hindia Belanda. Usul pembentukan Kabupaten Cilacap menurut Menteri Kolonial bermakna dua yaitu permohonan persetujuan pembentukan Kabupaten Cilacap dan organisasi bestir pribumi dan pengeluaran anggaran lebih dari F.5.220 per tahun yang keduanya memerlukan persetujuan Raja Belanda,setelah menerima surat rahasia Menteri Kolonial Pemerintah Hindia Belanda dengan besluit Gubernur Jenderal tanggal 21 Maret 1856 Nomor 21 antara lain menetapkan Onder Regentschap Cilacap ditingkatkan menjadi Regentschap (Kabupaten Cilacap)." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="LAMBANG, MOTTO, &amp; SESANTI"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="LAMBANG"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo_cilacap" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Bentuk dan Wujud Lambang Daerah\n\nBintang Segi Lima;\nMelambangkan keluhuran cita-cita masyarakat daerah yang berkepribadian Pancasila.\n\nTugu Pahlawan dengan lidah api diatas gelombang Laut Selatan;\nTugu Pahlawan melambangkan perjuangan heroik masyarakat Daerah dimasa Revolusi 1945.\nLidah api menunjukkan hitungan 5, berarti perjuangan yang berdasarkan Pancasila.\nGelombang Laut Selatan dengan lekuk gelombang berjumlah 4 dihubungkan dengan lidah api (5) berarti bahwa perjuangan yang berkobar-kobar sejak Revolusi 45 berdasarkan UUD 45 dan jiwa juang 45.\n\nKembang Wijayakusuma;\nMerupakan lambang Wahyu Negara pada saat masih berbentuk kerajaan.\nWijayakusuma menjadi nama pengenal khas dan merupakan lambang hidup daerah.\nKembang ini hanya ada dan tumbuh di Cilacap saja (bunga gaib).\n
+                \nPadi dan Kapas;
+                \nMelambangkan keluhuran cita-cita masyarakat Daerah mewujudkan masyarakat adil dan makmur dalam mengemban Amanat Penderitaan Rakyat.
+                \nPadi dan Kapas bermakna kegiatan masyarakat di bidang pangan dan sandang.
+                \nJumlah butir padi 17 dan kapas 8, dihubungkan dengan Kembang Wijayakusuma yang berkelopak 4 dan berdaun bunga 5, menunjukkan betapa keramatnya Proklamasi Tujuhbelas Delapan Empatlima.\n
+                \nIkan Hiu;
+                \nIkan Hiu melambangkan Cilacap berada di daerah pantai laut selatan, penghasil ikan, dan sebagian dari masyarakatnya adalah nelayan.
+                \n\nWarna Lambang Daerah dan maknanya
+                \n\nWarna Merah Hati :
+                \nKeberanian, keuletan, kewaspadaan serta melambangkan perjuangan yang gagah berani.
+                \nWarna Kuning Emas :
+                \nKeluhuran didalam mengemban tugas.
+                \nWarna Putih :
+                \nKesucian jiwa.
+                \nWarna Hitam :
+                \nKetenangan dan ketabahan.
+                \nWarna Hijau :
+                \nkesuburan dan kemakmuran.
+                \nWarna Biru Laut / Biru Tua :
+                \nCilacap terletak di pantai selatan, Samudera Indonesia. Seluruh warna menggambarkan kepribadian masyarakat Daerah." />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="MOTTO"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/motto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:text="JALA  :  Air, Lautan \nBHUMI  : Tanah, Daratan \nWIJAYAKUSUMA  :  Bunga Kejayaan \nÇAKTI  :  Ilmu Tertinggi" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SESANTI"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="CILACAP BERCAHAYA \n Bersih  Elok  Rapi  Ceria  Hijau  Aman  Jaya"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

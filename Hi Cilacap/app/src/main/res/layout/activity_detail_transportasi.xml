@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.transportasi.TransportasiDetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Nama"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp">
+
+                <TableRow>
+
+                    <TextView android:text="Keberangkatan" />
+
+                    <TextView android:text=" : " />
+
+                    <TextView android:id="@+id/tujuan" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView android:text="Berangkat" />
+
+                    <TextView android:text=" : " />
+
+                    <TextView android:id="@+id/berangkat" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView android:text="Datang" />
+
+                    <TextView android:text=" : " />
+
+                    <TextView android:id="@+id/datang" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView android:text="Harga" />
+
+                    <TextView android:text=" : " />
+
+                    <TextView android:id="@+id/harga" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView android:text="Kontak" />
+
+                    <TextView android:text=" : " />
+
+                    <TextView android:id="@+id/kontak" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end">
+
+                <ImageButton
+                    android:id="@+id/Phone"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rect_white_black_outbox"
+                    android:src="@drawable/ic_baseline_add_ic_call_24"
+                    android:foreground="?attr/selectableItemBackground"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

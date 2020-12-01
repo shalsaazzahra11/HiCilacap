@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hi Cilacap</string>
+    <string name="wisata">WISATA</string>
+    <string name="kuliner">KULINER</string>
+    <string name="akses_transportasi">AKSES TRANSPORTASI</string>
+    <string name="internet_bermasalah">Network Error</string>
+    <string name="keberangkatan">Keberangkatan</string>
+    <string name="berangkat">Berangkat</string>
+    <string name="datang">Datang</string>
+    <string name="harga">Harga</string>
+    <string name="kontak">Kontak</string>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Versi Aplikasi : 1.0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Aplikasi Oleh : Fabulous Team" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Logo dan Gambar Oleh : Fabulous Team" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Buku Panduan : " />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView android:text="1. " />
+
+            <TextView
+                android:maxEms="4"
+                android:singleLine="false"
+                android:justificationMode="inter_word"
+                android:text="Lakukan login/register supaya bisa menggunakan aplikasi." />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="2. " />
+
+            <TextView
+                android:maxEms="4"
+                android:singleLine="false"
+                android:justificationMode="inter_word"
+                android:text="Pilih kategori yang akan dilihat yaitu Wisata, Kuliner dan Akses Transportasi." />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="3. " />
+
+            <TextView
+                android:maxEms="4"
+                android:singleLine="false"
+                android:justificationMode="inter_word"
+                android:text="Pilih jenis Wisata, Kuliner atau Akses Transportasi yang sudah tersedia pada list." />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="4. " />
+
+            <TextView
+                android:maxEms="4"
+                android:singleLine="false"
+                android:justificationMode="inter_word"
+                android:text="User dapat mengetahui informasi lebih detail pada halaman deskripsi atau informasi." />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="5. " />
+
+            <TextView
+                android:maxEms="4"
+                android:singleLine="false"
+                android:justificationMode="inter_word"
+                android:text="Jika user ingin mengetahui letak lokasi atau rute Kabupaten Cilacap bisa lakukan klik button lokasi pada halaman Profil." />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
